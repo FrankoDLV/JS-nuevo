@@ -67,26 +67,24 @@ footer {
 
 /* Iphone */
 
-.SeccionIphone {
-  margin: 10px auto;
-  padding: 0;
-}
-
 .iphonePresentacion {
   display: flex;
   margin: 50px auto;
   flex-direction: column;
   max-width: 100%;
   align-items: center;
-  background-color: #e3dcd4;
   justify-content: center;
+  transition: all 3s ease-in-out;
+  box-shadow: 1px 5px 5px rgb(103, 103, 103);
 }
+
+
+
 
 .iphonePresentacion h1 {
   display: flex;
   font-size: 50px;
-  margin: 35px auto;
-
+  margin: 10px auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
 }
@@ -96,33 +94,42 @@ footer {
 .containerCardIphone {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 30px 40px;
   justify-content: space-evenly;
-  margin: 50px auto;
-  width: 90%;
 }
 
 /* card */
 
 .cardIphone {
   display: flex;
-  background-color: #b7b7b7;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 15px 10px 10px #acabab;
   cursor: pointer;
   text-align: center;
-  width: 400px;
-  height: 520px;
-  padding: 20px;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  justify-content: space-between;
+
+  color: rgb(85, 85, 85);
   border-radius: 30px;
   font-size: 20px;
 }
+
+.cardIphone h1 {
+  font-size: 35px;
+}
+
 .cardIphone img {
-  width: 190px;
+  width: 160px;
 }
 
 .botonComprar {
   border-radius: 10px;
   border: 2px solid rgb(6, 21, 188);
   padding: 5px 30px;
+  width: 160px;
   margin: 5px;
   background-color: rgb(82, 168, 243);
   color: white;
@@ -153,12 +160,13 @@ footer {
   font-size: 30px;
   align-items: center;
   gap: 30px;
+  transition: all 0.5s ease-in-out;
 }
 
 .carritofinal:hover {
-  padding: 13px 40px;
-  transition: all 0.2s;
-  font-size: 35px;
+  padding: 12px 42px;
+  box-shadow: 3px 10px 40px 4px grey;
+  transition: all 1s;
 }
 
 /* Dynamic Island */
@@ -174,9 +182,17 @@ footer {
 
 .dynamicIsland h1 {
   background-color: #e6e6e6;
-  padding: 10px 50px;
+  padding: 7px 20px;
   border-radius: 20px;
-  border: 7px groove rgb(100, 203, 234);
+  border: 7px groove rgb(72, 190, 226);
+  transition: all 0.9s ease-in-out;
+}
+
+.dynamicIsland h1:hover {
+  padding: 10px 140px;
+  border-radius: 50px;
+  border: 7px groove;
+  color: #c0b8b8;
 }
 
 .dynamicIsland img {
@@ -188,6 +204,8 @@ footer {
 .containerProductos {
   display: flex;
   flex-direction: column;
+  background-color: black;
+  color: #8e8989;
   text-align: center;
 }
 
