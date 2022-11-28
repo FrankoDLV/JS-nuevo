@@ -228,13 +228,20 @@ footer {
   display: flex;
   padding: 10px 60px;
   align-self: center;
-  background-color: #83d2e6;
-  color: rgb(235, 216, 216);
+  background-color: #68d4ef;
+  color: rgb(224, 219, 219);
   font-size: 30px;
   margin: 40px auto;
   border-radius: 15px;
-
   border: 2px solid #105060;
+  transition: all 0.5s ease-in-out;
+}
+
+.containerProductos button:hover {
+  background-color: black;
+  border: 3px solid #167187;
+  border-bottom: 7px solid #105060;
+  border-right: 5px solid #105060;
 }
 
 /* footer */
