@@ -78,9 +78,6 @@ footer {
   box-shadow: 1px 5px 5px rgb(103, 103, 103);
 }
 
-
-
-
 .iphonePresentacion h1 {
   display: flex;
   font-size: 50px;
@@ -108,10 +105,11 @@ footer {
   cursor: pointer;
   text-align: center;
   align-items: center;
+  padding: 20px 5px;
   width: 350px;
-  height: 500px;
+  height: 530px;
   justify-content: space-between;
-
+  cursor: pointer;
   color: rgb(85, 85, 85);
   border-radius: 30px;
   font-size: 20px;
@@ -122,10 +120,10 @@ footer {
 }
 
 .cardIphone img {
-  width: 160px;
+  width: 250px;
 }
 
-.botonComprar {
+.btn-primary {
   border-radius: 10px;
   border: 2px solid rgb(6, 21, 188);
   padding: 5px 30px;
@@ -167,6 +165,7 @@ footer {
   padding: 12px 42px;
   box-shadow: 3px 10px 40px 4px grey;
   transition: all 1s;
+  
 }
 
 /* Dynamic Island */
@@ -219,6 +218,7 @@ footer {
   font-size: 30px;
   margin: 40px auto;
   border-radius: 15px;
+
   border: 2px solid #105060;
 }
 
@@ -233,4 +233,29 @@ footer {
 
 footer img {
   width: 45px;
+}
+
+
+.containerCompra {
+  display: flex;
+} 
+
+
+#finalizar {
+  background-color: rgb(9, 177, 9);
+  border-bottom: 4px solid rgb(36, 137, 36);
+  border-right: 4px solid rgb(27, 135, 27);
+  color: white;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  justify-content: center;
+  margin: 30px auto;
+  transition: all 0.5s ease-in-out;
+}
+
+#finalizar:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
